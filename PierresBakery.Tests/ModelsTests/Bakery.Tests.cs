@@ -21,5 +21,15 @@ namespace PierresBakery.Tests
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
     }
 
+    [TestMethod]
+    public void GetBreadNumber_ReturnsBreadNumber_Int()
+    {
+      string stringBreadNumber = "5";
+      Bread newBread = new Bread(stringBreadNumber);
+      int breadNumber = int.Parse(stringBreadNumber);
+      int result = newBread.BreadNumber;
+      Assert.AreEqual(breadNumber, result);
+    }
+
   }
 }
