@@ -1,6 +1,6 @@
-# Template
+# Pierre's Bakery
 
-#### An application that _____
+#### Bread and pastries for sale! Come on over to Pierre's Bakery!
 
 #### By David Jandron
 
@@ -10,7 +10,7 @@
 * VS Code
 
 ## Description
-A project ________________. 
+A console application for a ficticious bakery. This app will allow the user to enter quantities of bread and pastries to purchase. There are discounts for every three loaves, as well as every four pastries purchased. 
 
 ### Setup Instructions
 
