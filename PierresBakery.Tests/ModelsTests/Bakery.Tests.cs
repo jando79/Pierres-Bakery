@@ -60,7 +60,25 @@ namespace PierresBakery.Tests
       int result = newBread.BreadPrice();
       Assert.AreEqual(expected, result);
     }
+
+    [TestMethod]
+    public void PastryPrice_ReturnPriceOfOnePastry_Int()
+    {
+      string stringPastryNumber = "1";
+      Pastry newPastry = new Pastry(stringPastryNumber);
+      int expected = 2;
+      int result = newPastry.PastryPrice();
+      Assert.AreEqual(expected, result);
+    }
+
+    [TestMethod]
+    public void PastryPrice_ReturnPastryPriceWithDiscount_Int()
+    {
+      string stringPastryNumber = "5";
+      Pastry newPastry = new Pastry(stringPastryNumber);
+      int expected = 8;
+      int result = newPastry.PastryPrice();
+      Assert.AreEqual(expected, result);
+    }
   }
-
-
 }
