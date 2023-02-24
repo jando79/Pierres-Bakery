@@ -1,1 +1,0 @@
-//run dotnet restore in test directory
