@@ -2,7 +2,7 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
-    public int BreadNumber;
+    public int BreadNumber { get; set; }
     
     public Bread(string stringBreadNumber)  
     {
@@ -28,13 +28,12 @@ namespace PierresBakery.Models
 
    public class Pastry
    {
-     public int PastryNumber;
+     public int PastryNumber { get; set; }
      public Pastry(string stringPastryNumber)
     {
        PastryNumber = int.Parse(stringPastryNumber);
     }
-
-    public int PastryPrice()
+    public int PastryPrice() 
     {
       int counter = 0;
       if (PastryNumber <= 2)
