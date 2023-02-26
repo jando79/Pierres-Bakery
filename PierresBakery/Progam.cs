@@ -7,6 +7,9 @@ namespace UserInterface
   {
     public static void Main()
     {
+     Console.BackgroundColor = ConsoleColor.Red;
+     Console.ForegroundColor = ConsoleColor.Green;
+     Console.WriteLine("~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~"); 
      Console.WriteLine("Welcome to Pierre's Bakery");
      Console.WriteLine("We specialize in bread and pastries");
      Console.WriteLine("------------------------------------------");
@@ -26,6 +29,7 @@ namespace UserInterface
      Console.WriteLine("-------------------------------------------");
      Console.WriteLine("Thank you for your business!");
      Console.WriteLine("Goodbye and come again!");
+     Console.WriteLine("============================================");
     }
   }
 }
