@@ -18,6 +18,7 @@ A console application for a ficticious bakery. This app will allow the user to e
 2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "Pierres-Bakery".
 3. In the command line, run the command "dotnet run" to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
 4. Optionally, you can run "dotnet build" to compile this console app without running it.
+5. In addition, this app can be tested by accessing the "PierresBakery.Tests" directory and running the command, "dotnet test", in the terminal.
 
 ## Known Bugs
 
