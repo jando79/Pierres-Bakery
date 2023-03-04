@@ -36,7 +36,7 @@ namespace PierresBakery.Models
     public int PastryPrice() 
     {
       int counter = 0;
-      if (PastryNumber <= 2)
+      if (PastryNumber <= 3)
       {
        counter = PastryNumber*2;
       } else {
